@@ -22,7 +22,7 @@ module.exports = async (client) => {
                                 },
                                 {
                                     label: `Invite Bot`,
-                                    description: `Invite Bot to your server`,
+                                    description: `Sorry you are not allowed to Invite Bot to your server`,
                                     emoji: "📨",
                                     value: "invite-linkspanel",
                                 },
@@ -46,7 +46,7 @@ module.exports = async (client) => {
                     title: `📃・Bot Vote`,
                     desc: `Vote for Bot on top.gg`,
                     image: "https://cdn.discordapp.com/attachments/843487478881976381/874694192755007509/Bot_banner_vote.jpg",
-                    url: "https://top.gg/bot/798144456528363550/vote",
+                    url: "https://discord.com/oauth2/authorize?client_id=1270289292152934439&permissions=2147483648&integration_type=0&scope=applications.commands+bot",
                     components: [row2],
                     type: 'edit'
                 }, interaction.message)
